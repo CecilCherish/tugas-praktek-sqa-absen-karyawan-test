@@ -1,0 +1,19 @@
+# Environment variables
+.env
+.env.local
+
+# Node modules
+node_modules/
+
+# Playwright artifacts
+test-results/
+playwright-report/
+playwright/.cache/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+Thumbs.db
+.DS_Store

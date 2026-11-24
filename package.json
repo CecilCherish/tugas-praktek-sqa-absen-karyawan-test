@@ -1,0 +1,31 @@
+{
+  "name": "absensi-dikahadir-app",
+  "version": "1.0.0",
+  "description": "SIT and Automation Testing for Web Absensi Hadir",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:smoke": "playwright test --grep \"@smoke\"",
+    "test:regression": "playwright test --grep \"@regression\"",
+    "test:auth": "playwright test --grep \"@auth\"",
+    "test:pkwt": "playwright test --grep \"@pkwt\"",
+    "test:mitra": "playwright test --grep \"@mitra\"",
+    "test:mutating": "playwright test --grep \"@mutating\" --workers=1",
+    "test:report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "sqa",
+    "automation",
+    "hadir"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.50.0",
+    "@types/node": "^22.13.1",
+    "dotenv": "^16.4.7",
+    "typescript": "^5.7.3"
+  }
+}
